@@ -6,7 +6,9 @@ Welcome to PreSchool Prodigy! This repository contains the code for our dynamic 
 ## 🚀 Technologies
 
 HTML
+
 PHP
+
 CSS
 
 
