@@ -1,0 +1,248 @@
+    /* Reset styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body styles */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+    
+    /* Header styles */
+    header {
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar {
+        list-style-type: none;
+        max-width: 100%;
+        
+    }
+    
+    .navbar li {
+        display: inline-block;
+        margin-right: 20px;
+        
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+        color: #333;
+        
+    }
+    
+    /* Photo styles */
+    .photo {
+        position: relative;
+        text-align: right;
+      
+    }
+    
+    .photo img {
+        max-width: 100%;
+        height: 570px;
+    }
+    
+    .text-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+    }
+    
+    .main {
+        font-size: 24px;
+    }
+    
+    /* Welcome tag styles */
+    .welcometag {
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+        margin-top: 85px;
+    }
+    
+    /* Button styles */
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-left: 700px;
+        
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Course info styles */
+    
+    .course-info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .info-box-1,
+    .info-box-2 {
+        flex: 1;
+        padding: 20px;
+        background-color: #ffff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: #333;
+        
+    }
+    
+    .predpoto,
+    .childpoto {
+        flex: 1;
+        text-align: center;
+    }
+    
+    /* Why choose styles */
+    .why-info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .why-box-1,
+    .why-box-2,
+    .why-box-3 {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* Service info styles */
+    .service-info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .service-box-1,
+    .service-box-2,
+    .service-box-3,
+    .service-box-4 {
+        flex: 1;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* Resources info styles */
+    .resources-info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .resources-box-1,
+    .resources-box-2,
+    .resources-box-3,
+    .resources-box-4 {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    /* Apply info styles */
+    .apply-info {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .apply-box {
+        padding: 100px;
+        background-color: #333;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color:#fff;
+        font-size: 20px;
+    }
+    
+    /* Contact info styles */
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .contact-box {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-box form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-box label {
+        font-weight: bold;
+    }
+    
+    .contact-box input,
+    .contact-box textarea {
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    .contact-box input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .contact-box input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Call info styles */
+    .call-info {
+        background-color: #f5f5f5;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    /* Footer styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .map-section {
+        margin-top: 20px;
+    }
